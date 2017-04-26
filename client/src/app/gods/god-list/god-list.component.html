@@ -1,0 +1,8 @@
+<div *ngIf="error">{{error}}</div>
+<ul id="god-list">
+    <li *ngFor="let god of gods"
+        [routerLink]="['/god/', god.id]"
+        routerLinkActive="selected">
+        <span class="id">{{god.id}}</span> {{god.greekName}}
+    </li>
+</ul>

@@ -1,0 +1,53 @@
+#element {
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.picture {
+    height: 390px;
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #EEE;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    line-height: 390px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFF;
+    text-shadow: 0 0 1px #546E7A;
+}
+
+.properties {
+    margin-top: 10px;
+}
+
+.properties > *:not(.full-width) {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.property {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.property > label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.property > *:not(label) {
+    padding: 0;
+    margin: 0;
+}

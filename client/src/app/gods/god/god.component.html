@@ -1,0 +1,34 @@
+<div id="element" *ngIf="god"> <!-- only shown if the component currently has a god set -->
+    <!-- sheet header -->
+    <div class="property">
+        <label>ID</label>
+        <p class="static">{{god.id}}</p>
+    </div>
+    <div class="property">
+        <label>Greek Name</label>
+        <h2>{{god.greekName}} /</h2>
+    </div>
+    <div class="property">
+        <label>Roman Name</label>
+        <h2>{{god.romanName}}</h2>
+    </div>
+    <!-- / sheet header -->
+
+    <!-- sheet body -->
+    <div class="picture">
+        {{god.greekName}}'s picture
+    </div>
+    <div class="properties">
+        <div class="property">
+            <label>Role</label>
+            <p class="name">{{god.role}}</p>
+        </div>
+        <div class="property">
+            <label>Symbols</label>
+            <p class="name">{{god.symbols}}</p>
+        </div>
+    </div>
+    <!-- / sheet body -->
+</div>
+
+<div *ngIf="error">{{error}}</div>

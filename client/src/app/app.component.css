@@ -1,0 +1,27 @@
+h1 {
+    padding: 10px 0;
+    margin: 20px 0 10px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.container {
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 0 20px;
+    color: #546E7A;
+}
+
+.row > * {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.col-1-5 {
+    width: 20%;
+}
+
+.col-4-5 {
+    width: 80%;
+}

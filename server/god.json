@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "greekName": "Aphrodite",
+    "romanName": "Venus",
+    "role": "Goddess of love and beauty",
+    "symbols": "Sceptre, myrtle, dove"
+  },
+  {
+    "id": 2,
+    "greekName": "Apollo",
+    "romanName": "Helios",
+    "role": "God of the arts, archery, and divination",
+    "symbols": "Bow, lyre, laurel"
+  },
+  {
+    "id": 3,
+    "greekName": "Ares",
+    "romanName": "Mars",
+    "role": "God of war",
+    "symbols": "Spear"
+  },
+  {
+    "id": 4,
+    "greekName": "Artemis",
+    "romanName": "Diana",
+    "role": "Goddess of the hunt and protector of children",
+    "symbols": "Bow, deer"
+  },
+  {
+    "id": 5,
+    "greekName": "Athena",
+    "romanName": "Minerva",
+    "role": "Goddess of wisdom, war, and crafts",
+    "symbols": "Aegis, owl, olive tree"
+  },
+  {
+    "id": 6,
+    "greekName": "Demeter",
+    "romanName": "Ceres",
+    "role": "Goddess of agriculture and fertility",
+    "symbols": "Sceptre, torch, corn (grain)"
+  },
+  {
+    "id": 7,
+    "greekName": "Dionysus",
+    "romanName": "Bacchus",
+    "role": "God of wine, mysteries, and the theatre",
+    "symbols": "Grape vine, ivy, panther"
+  },
+  {
+    "id": 8,
+    "greekName": "Hades",
+    "romanName": "Dis Pater",
+    "role": "God of the underworld and the dead",
+    "symbols": "Cerberus, cornucopia, sceptre, Cypress"
+  },
+  {
+    "id": 9,
+    "greekName": "Hephaestus",
+    "romanName": "Vulcan",
+    "role": "God of smiths and metal-workers",
+    "symbols": "Axe"
+  },
+  {
+    "id": 10,
+    "greekName": "Hera",
+    "romanName": "Juno",
+    "role": "Goddess of marriage; consort of Zeus",
+    "symbols": "Sceptre, diadem, peacock"
+  },
+  {
+    "id": 11,
+    "greekName": "Hermes",
+    "romanName": "Mercury",
+    "role": "God of merchants; messenger of Zeus",
+    "symbols": "Caduceus (kerykeion), winged boots"
+  },
+  {
+    "id": 12,
+    "greekName": "Hestia",
+    "romanName": "Vesta",
+    "role": "Goddess of the hearth, home, and chastity",
+    "symbols": "The hearth and its fire"
+  },
+  {
+    "id": 13,
+    "greekName": "Poseidon",
+    "romanName": "Neptune",
+    "role": "God of the sea and earthquakes",
+    "symbols": "Trident, horse, bull"
+  },
+  {
+    "id": 14,
+    "greekName": "Zeus",
+    "romanName": "Jupiter",
+    "role": "God of the sky, ruler of Olympus",
+    "symbols": "Thunderbolt, eagle, oak"
+  }
+]

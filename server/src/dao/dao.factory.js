@@ -23,6 +23,7 @@
             switch(config.persistence) {
                 case 'file': dao = new FileDAO(model, this.parser);
                     break;
+                default: throw new Error(`Invalid value for config.persistence: '${config.persistence}.`);
             }
             return dao;
         }

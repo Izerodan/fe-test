@@ -25,6 +25,7 @@
                     break;
                 case 'json': dao = new JSONParser();
                     break;
+                default: throw new Error(`Invalid value for config.file.extension: '${config.file.extension}.`);
             }
             return dao;
         }
